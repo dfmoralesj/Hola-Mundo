@@ -10,4 +10,4 @@ jobs:
       - name: Instalacion de dependencias
         run: yarn install
       - name: Ejecutando tests
-        run: yarn test
+        run: yarn run test
