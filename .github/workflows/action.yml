@@ -9,5 +9,7 @@ jobs:
         uses: actions/checkout@v1
       - name: Instalacion de dependencias
         run: yarn install
+      - name: Instalacion de paquete java yarn
+        run: yarn add js-to-java
       - name: Ejecutando tests
         run: yarn run test
